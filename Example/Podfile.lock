@@ -1,5 +1,5 @@
 PODS:
-  - YLDNSPageView (0.1.0)
+  - YLDNSPageView (0.1.3)
 
 DEPENDENCIES:
   - YLDNSPageView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YLDNSPageView: 9b19df427d4e663e129ec5fcb7ee82e4e0bf2bb6
+  YLDNSPageView: 369a9f1c1a03166bd9a903b68b71358e27152606
 
 PODFILE CHECKSUM: cfb5dcf49673f531a54fe434dbd8d0842f71d9ce
 
