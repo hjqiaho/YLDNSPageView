@@ -1,0 +1,6 @@
+framework module Pods_YLDNSPageView_Example {
+  umbrella header "Pods-YLDNSPageView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,5 +1,8 @@
 # YLDNSPageView
 
+修改了PageContentView98行，PageViewManager32行，PageContentView149行
+解决tableview侧滑返回问题
+
 [![CI Status](https://img.shields.io/travis/hjqiaho@163.com/YLDNSPageView.svg?style=flat)](https://travis-ci.org/hjqiaho@163.com/YLDNSPageView)
 [![Version](https://img.shields.io/cocoapods/v/YLDNSPageView.svg?style=flat)](https://cocoapods.org/pods/YLDNSPageView)
 [![License](https://img.shields.io/cocoapods/l/YLDNSPageView.svg?style=flat)](https://cocoapods.org/pods/YLDNSPageView)

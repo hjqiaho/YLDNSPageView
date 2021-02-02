@@ -1,0 +1,6 @@
+framework module YLDNSPageView {
+  umbrella header "YLDNSPageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

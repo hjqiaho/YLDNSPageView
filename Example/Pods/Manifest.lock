@@ -1,0 +1,16 @@
+PODS:
+  - YLDNSPageView (0.1.0)
+
+DEPENDENCIES:
+  - YLDNSPageView (from `../`)
+
+EXTERNAL SOURCES:
+  YLDNSPageView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YLDNSPageView: 9b19df427d4e663e129ec5fcb7ee82e4e0bf2bb6
+
+PODFILE CHECKSUM: cfb5dcf49673f531a54fe434dbd8d0842f71d9ce
+
+COCOAPODS: 1.10.0

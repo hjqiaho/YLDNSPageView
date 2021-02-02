@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13276397D3BCC108AB63D1A78FF194B9 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99E437A51928835ACE814132609E29F /* PageContentView.swift */; };
+		171F7B4465AF8BAD78DC424E86339225 /* PageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FCC66081B475FC21370B946BFC7C1F /* PageStyle.swift */; };
+		449B3493534E13BBFEB21A9C1B1D4CAA /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C05C228595FFF646D9F94844C6DCB3 /* PageView.swift */; };
+		47ED706AAD6CE154C6857F6F1C684FAA /* YLDNSPageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B8F7DCB095FFE12624BFF6E9123C8 /* YLDNSPageView-dummy.m */; };
+		4A5F19BFDA70624896D53070E6F8EB66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		76C73CDA4108BA3A28F8E50AFC85174D /* Pods-YLDNSPageView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E344B0BFB1AC2F9242C5CAB0430C709 /* Pods-YLDNSPageView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C700D85C7F596ADABC473B8460D9C286 /* Pods-YLDNSPageView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CB15E4EE5382B4A265E03F506EFD5A1 /* Pods-YLDNSPageView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCD7BC48E698EFA4FDA5EBE5E4C44BBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DB0054A0B6E9156574B97ED8B7E4DB9C /* PageViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26F2BC2CFA2456ACE04A96BA54CA652 /* PageViewManager.swift */; };
+		E83C836FDF3D66E28CBB6F66784EF39E /* PageCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92A0A9949E92BCEC0F6FC7C0D2FB7A7 /* PageCollectionViewFlowLayout.swift */; };
+		EC0E522B601BBBB979886B10CD50E2E9 /* Pods-YLDNSPageView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1ACC0A314E61CC9BCA9CA31B8D4E7 /* Pods-YLDNSPageView_Example-dummy.m */; };
+		EE2884326978ABA137514ACE4DA55923 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA6CA50A05EA9F3CEA73D8C40D775F /* Helper.swift */; };
+		F1FD19549FB44718FAF11960FEA5356D /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09657A6EF9DE19FEF5E84D814FCCF27D /* PageTitleView.swift */; };
+		F57D5A5993A35D69CFB167281D51929F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F96A1801CA81A15B807E978C26FB4F35 /* YLDNSPageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F7881EDBD397BFE0693ECFC3D217475 /* YLDNSPageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEFA718A130DCF1FFEDA293873D33335 /* Pods-YLDNSPageView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 601ACCB37F2AA138C90B457DD9A9FBED /* Pods-YLDNSPageView_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2ED0C3511A947A73416CFA27E2FE9299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E22B9C86F29946DF09BBBB863DCBDDA;
+			remoteInfo = "Pods-YLDNSPageView_Example";
+		};
+		AEFC09B62017F7829C400FDD3386F622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67B4D38DE0A1F24C65581346EE0D3FE1;
+			remoteInfo = YLDNSPageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0293A1BAE4DFE109F041A5A9F00C7822 /* YLDNSPageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLDNSPageView.debug.xcconfig; sourceTree = "<group>"; };
+		09657A6EF9DE19FEF5E84D814FCCF27D /* PageTitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageTitleView.swift; path = YLDNSPageView/Classes/PageTitleView.swift; sourceTree = "<group>"; };
+		0E344B0BFB1AC2F9242C5CAB0430C709 /* Pods-YLDNSPageView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLDNSPageView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0E4BDB1C90C4F79B46CF14D7BF58E9F0 /* Pods-YLDNSPageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLDNSPageView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		14EE05D9D6D61D3D96E368488060230C /* Pods-YLDNSPageView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLDNSPageView_Tests-Info.plist"; sourceTree = "<group>"; };
+		1664E2283708547E66FA9B4ED5A53B03 /* Pods-YLDNSPageView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLDNSPageView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1DF8E4738E38A55221DDF5E22C43E3A4 /* YLDNSPageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLDNSPageView.release.xcconfig; sourceTree = "<group>"; };
+		29D4712916E6397002A55A1005CEC513 /* Pods-YLDNSPageView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLDNSPageView_Example-Info.plist"; sourceTree = "<group>"; };
+		2CB15E4EE5382B4A265E03F506EFD5A1 /* Pods-YLDNSPageView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLDNSPageView_Example-umbrella.h"; sourceTree = "<group>"; };
+		3AAA6CA50A05EA9F3CEA73D8C40D775F /* Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = YLDNSPageView/Classes/Helper.swift; sourceTree = "<group>"; };
+		40C05C228595FFF646D9F94844C6DCB3 /* PageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageView.swift; path = YLDNSPageView/Classes/PageView.swift; sourceTree = "<group>"; };
+		4C068428976E19E61A6FB9DDDC48E9A3 /* Pods-YLDNSPageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLDNSPageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E9B8F7DCB095FFE12624BFF6E9123C8 /* YLDNSPageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLDNSPageView-dummy.m"; sourceTree = "<group>"; };
+		4F7881EDBD397BFE0693ECFC3D217475 /* YLDNSPageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLDNSPageView-umbrella.h"; sourceTree = "<group>"; };
+		530517466A731A8AE56D4E326137272B /* Pods-YLDNSPageView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLDNSPageView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		601ACCB37F2AA138C90B457DD9A9FBED /* Pods-YLDNSPageView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLDNSPageView_Tests-dummy.m"; sourceTree = "<group>"; };
+		6D11C588C454D2BAFC350295319E919E /* YLDNSPageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YLDNSPageView.modulemap; sourceTree = "<group>"; };
+		6F83E9B25038EADF40738F0240EB1248 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7FB81F6AC58C0C1E35EF049F282F9B6D /* Pods_YLDNSPageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLDNSPageView_Example.framework; path = "Pods-YLDNSPageView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A2B5C79E23F512C3007742AD3069E1 /* Pods_YLDNSPageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLDNSPageView_Tests.framework; path = "Pods-YLDNSPageView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4D6CC58D91C3E1A3DF7F0DCA74BB3D4 /* YLDNSPageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLDNSPageView-prefix.pch"; sourceTree = "<group>"; };
+		A99E437A51928835ACE814132609E29F /* PageContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageContentView.swift; path = YLDNSPageView/Classes/PageContentView.swift; sourceTree = "<group>"; };
+		AA8DDEC616A6246F8955C20CD769C80C /* Pods-YLDNSPageView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLDNSPageView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B1F1E3997111BC12D027BAB4B6FC5590 /* Pods-YLDNSPageView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLDNSPageView_Example.modulemap"; sourceTree = "<group>"; };
+		BA6FD671D5CA93BF5C8D4ED1D977A0CC /* Pods-YLDNSPageView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLDNSPageView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C68BF2A4F1A8822F5AEA77D38DD4705C /* Pods-YLDNSPageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLDNSPageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D2F1ACC0A314E61CC9BCA9CA31B8D4E7 /* Pods-YLDNSPageView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLDNSPageView_Example-dummy.m"; sourceTree = "<group>"; };
+		DDC0A633B211541528249B93D88BCD5E /* Pods-YLDNSPageView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLDNSPageView_Tests.modulemap"; sourceTree = "<group>"; };
+		E26F2BC2CFA2456ACE04A96BA54CA652 /* PageViewManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewManager.swift; path = YLDNSPageView/Classes/PageViewManager.swift; sourceTree = "<group>"; };
+		E2E21E26BDA17730B7A27552C7C6B06A /* YLDNSPageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YLDNSPageView.framework; path = YLDNSPageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B3B060328EEC954E54DCBA890E64A2 /* Pods-YLDNSPageView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLDNSPageView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEF83454A554B82C24B88DC5B8BB5622 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F573326BB4D8D141216A32733E51C3E3 /* YLDNSPageView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YLDNSPageView-Info.plist"; sourceTree = "<group>"; };
+		F5FCC66081B475FC21370B946BFC7C1F /* PageStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageStyle.swift; path = YLDNSPageView/Classes/PageStyle.swift; sourceTree = "<group>"; };
+		F92A0A9949E92BCEC0F6FC7C0D2FB7A7 /* PageCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageCollectionViewFlowLayout.swift; path = YLDNSPageView/Classes/PageCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		F9EF9AAD7D828FE21160B04B710B7E9F /* YLDNSPageView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YLDNSPageView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FB4EB71CEACEFC57AA4F3A1A6FC5219F /* Pods-YLDNSPageView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLDNSPageView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D755E05EEAFEECECEF7724A73606D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57D5A5993A35D69CFB167281D51929F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998D14E3A98EB06BC9A1E5A7774FA121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD7BC48E698EFA4FDA5EBE5E4C44BBB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C129A8AD2B532DF03791B5E8EB390D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5F19BFDA70624896D53070E6F8EB66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7F31B9DD22A2796BBA9BD3B9022CA1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6F83E9B25038EADF40738F0240EB1248 /* LICENSE */,
+				EEF83454A554B82C24B88DC5B8BB5622 /* README.md */,
+				F9EF9AAD7D828FE21160B04B710B7E9F /* YLDNSPageView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		14B0396C1908C46B26A8277101C076EF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C2DBC554FA34CD3F9D60D21D19F5FB8 /* YLDNSPageView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		28908EE4F7879C2AACDE576C85F099BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D11C588C454D2BAFC350295319E919E /* YLDNSPageView.modulemap */,
+				4E9B8F7DCB095FFE12624BFF6E9123C8 /* YLDNSPageView-dummy.m */,
+				F573326BB4D8D141216A32733E51C3E3 /* YLDNSPageView-Info.plist */,
+				A4D6CC58D91C3E1A3DF7F0DCA74BB3D4 /* YLDNSPageView-prefix.pch */,
+				4F7881EDBD397BFE0693ECFC3D217475 /* YLDNSPageView-umbrella.h */,
+				0293A1BAE4DFE109F041A5A9F00C7822 /* YLDNSPageView.debug.xcconfig */,
+				1DF8E4738E38A55221DDF5E22C43E3A4 /* YLDNSPageView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YLDNSPageView";
+			sourceTree = "<group>";
+		};
+		5695B4EDA71F87AC4282DF7EE6720843 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FB81F6AC58C0C1E35EF049F282F9B6D /* Pods_YLDNSPageView_Example.framework */,
+				80A2B5C79E23F512C3007742AD3069E1 /* Pods_YLDNSPageView_Tests.framework */,
+				E2E21E26BDA17730B7A27552C7C6B06A /* YLDNSPageView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C2DBC554FA34CD3F9D60D21D19F5FB8 /* YLDNSPageView */ = {
+			isa = PBXGroup;
+			children = (
+				3AAA6CA50A05EA9F3CEA73D8C40D775F /* Helper.swift */,
+				F92A0A9949E92BCEC0F6FC7C0D2FB7A7 /* PageCollectionViewFlowLayout.swift */,
+				A99E437A51928835ACE814132609E29F /* PageContentView.swift */,
+				F5FCC66081B475FC21370B946BFC7C1F /* PageStyle.swift */,
+				09657A6EF9DE19FEF5E84D814FCCF27D /* PageTitleView.swift */,
+				40C05C228595FFF646D9F94844C6DCB3 /* PageView.swift */,
+				E26F2BC2CFA2456ACE04A96BA54CA652 /* PageViewManager.swift */,
+				0F7F31B9DD22A2796BBA9BD3B9022CA1 /* Pod */,
+				28908EE4F7879C2AACDE576C85F099BD /* Support Files */,
+			);
+			name = YLDNSPageView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8CFE50A07225EDFA14B5947D267019E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B37AC391BA3480D886AFF4865D361007 /* Pods-YLDNSPageView_Example */,
+				C172132C5704FB36AB3956B1ED6D9197 /* Pods-YLDNSPageView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B37AC391BA3480D886AFF4865D361007 /* Pods-YLDNSPageView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B1F1E3997111BC12D027BAB4B6FC5590 /* Pods-YLDNSPageView_Example.modulemap */,
+				FB4EB71CEACEFC57AA4F3A1A6FC5219F /* Pods-YLDNSPageView_Example-acknowledgements.markdown */,
+				AA8DDEC616A6246F8955C20CD769C80C /* Pods-YLDNSPageView_Example-acknowledgements.plist */,
+				D2F1ACC0A314E61CC9BCA9CA31B8D4E7 /* Pods-YLDNSPageView_Example-dummy.m */,
+				530517466A731A8AE56D4E326137272B /* Pods-YLDNSPageView_Example-frameworks.sh */,
+				29D4712916E6397002A55A1005CEC513 /* Pods-YLDNSPageView_Example-Info.plist */,
+				2CB15E4EE5382B4A265E03F506EFD5A1 /* Pods-YLDNSPageView_Example-umbrella.h */,
+				C68BF2A4F1A8822F5AEA77D38DD4705C /* Pods-YLDNSPageView_Example.debug.xcconfig */,
+				0E4BDB1C90C4F79B46CF14D7BF58E9F0 /* Pods-YLDNSPageView_Example.release.xcconfig */,
+			);
+			name = "Pods-YLDNSPageView_Example";
+			path = "Target Support Files/Pods-YLDNSPageView_Example";
+			sourceTree = "<group>";
+		};
+		C172132C5704FB36AB3956B1ED6D9197 /* Pods-YLDNSPageView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DDC0A633B211541528249B93D88BCD5E /* Pods-YLDNSPageView_Tests.modulemap */,
+				BA6FD671D5CA93BF5C8D4ED1D977A0CC /* Pods-YLDNSPageView_Tests-acknowledgements.markdown */,
+				E3B3B060328EEC954E54DCBA890E64A2 /* Pods-YLDNSPageView_Tests-acknowledgements.plist */,
+				601ACCB37F2AA138C90B457DD9A9FBED /* Pods-YLDNSPageView_Tests-dummy.m */,
+				14EE05D9D6D61D3D96E368488060230C /* Pods-YLDNSPageView_Tests-Info.plist */,
+				0E344B0BFB1AC2F9242C5CAB0430C709 /* Pods-YLDNSPageView_Tests-umbrella.h */,
+				4C068428976E19E61A6FB9DDDC48E9A3 /* Pods-YLDNSPageView_Tests.debug.xcconfig */,
+				1664E2283708547E66FA9B4ED5A53B03 /* Pods-YLDNSPageView_Tests.release.xcconfig */,
+			);
+			name = "Pods-YLDNSPageView_Tests";
+			path = "Target Support Files/Pods-YLDNSPageView_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				14B0396C1908C46B26A8277101C076EF /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5695B4EDA71F87AC4282DF7EE6720843 /* Products */,
+				8CFE50A07225EDFA14B5947D267019E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36650C76BA2F00DEF796B22F9DC51689 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C700D85C7F596ADABC473B8460D9C286 /* Pods-YLDNSPageView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99BC899C9AEF9081077303D4EB6F660A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96A1801CA81A15B807E978C26FB4F35 /* YLDNSPageView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A58613219B9A7FB05239C0C4BA47CB44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C73CDA4108BA3A28F8E50AFC85174D /* Pods-YLDNSPageView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3668A9ED35D53482861B65FB619E13CD /* Pods-YLDNSPageView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CE84D4B645712DB819A6AA8EADAA7A2 /* Build configuration list for PBXNativeTarget "Pods-YLDNSPageView_Tests" */;
+			buildPhases = (
+				A58613219B9A7FB05239C0C4BA47CB44 /* Headers */,
+				2F70461FEC698147A9BE06A006D28637 /* Sources */,
+				998D14E3A98EB06BC9A1E5A7774FA121 /* Frameworks */,
+				C0ABFBBED2BD65EBE25A2C4D5C9064F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2C758ED591D40A102730EFDA081FC1D /* PBXTargetDependency */,
+			);
+			name = "Pods-YLDNSPageView_Tests";
+			productName = "Pods-YLDNSPageView_Tests";
+			productReference = 80A2B5C79E23F512C3007742AD3069E1 /* Pods_YLDNSPageView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		67B4D38DE0A1F24C65581346EE0D3FE1 /* YLDNSPageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76BB87ADE14C5070ECEBAFCE9D83680F /* Build configuration list for PBXNativeTarget "YLDNSPageView" */;
+			buildPhases = (
+				99BC899C9AEF9081077303D4EB6F660A /* Headers */,
+				F3407186038EB6D66126D7DC6C768B92 /* Sources */,
+				0D755E05EEAFEECECEF7724A73606D74 /* Frameworks */,
+				50C8A623CC2CFD77D8C1347F46BB87AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLDNSPageView;
+			productName = YLDNSPageView;
+			productReference = E2E21E26BDA17730B7A27552C7C6B06A /* YLDNSPageView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E22B9C86F29946DF09BBBB863DCBDDA /* Pods-YLDNSPageView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F73A0E79C68E27C7BF32745AA4880E21 /* Build configuration list for PBXNativeTarget "Pods-YLDNSPageView_Example" */;
+			buildPhases = (
+				36650C76BA2F00DEF796B22F9DC51689 /* Headers */,
+				5FCEBEB6D9921E2F4F2501CA2EBEF39E /* Sources */,
+				C129A8AD2B532DF03791B5E8EB390D92 /* Frameworks */,
+				CA8CE2CC499F1E20158CAD08D2ECEE62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C639BCD6930F9ED0639D6C228FACD9B4 /* PBXTargetDependency */,
+			);
+			name = "Pods-YLDNSPageView_Example";
+			productName = "Pods-YLDNSPageView_Example";
+			productReference = 7FB81F6AC58C0C1E35EF049F282F9B6D /* Pods_YLDNSPageView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5695B4EDA71F87AC4282DF7EE6720843 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E22B9C86F29946DF09BBBB863DCBDDA /* Pods-YLDNSPageView_Example */,
+				3668A9ED35D53482861B65FB619E13CD /* Pods-YLDNSPageView_Tests */,
+				67B4D38DE0A1F24C65581346EE0D3FE1 /* YLDNSPageView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50C8A623CC2CFD77D8C1347F46BB87AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0ABFBBED2BD65EBE25A2C4D5C9064F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8CE2CC499F1E20158CAD08D2ECEE62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F70461FEC698147A9BE06A006D28637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFA718A130DCF1FFEDA293873D33335 /* Pods-YLDNSPageView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FCEBEB6D9921E2F4F2501CA2EBEF39E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0E522B601BBBB979886B10CD50E2E9 /* Pods-YLDNSPageView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3407186038EB6D66126D7DC6C768B92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2884326978ABA137514ACE4DA55923 /* Helper.swift in Sources */,
+				E83C836FDF3D66E28CBB6F66784EF39E /* PageCollectionViewFlowLayout.swift in Sources */,
+				13276397D3BCC108AB63D1A78FF194B9 /* PageContentView.swift in Sources */,
+				171F7B4465AF8BAD78DC424E86339225 /* PageStyle.swift in Sources */,
+				F1FD19549FB44718FAF11960FEA5356D /* PageTitleView.swift in Sources */,
+				449B3493534E13BBFEB21A9C1B1D4CAA /* PageView.swift in Sources */,
+				DB0054A0B6E9156574B97ED8B7E4DB9C /* PageViewManager.swift in Sources */,
+				47ED706AAD6CE154C6857F6F1C684FAA /* YLDNSPageView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C639BCD6930F9ED0639D6C228FACD9B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YLDNSPageView;
+			target = 67B4D38DE0A1F24C65581346EE0D3FE1 /* YLDNSPageView */;
+			targetProxy = AEFC09B62017F7829C400FDD3386F622 /* PBXContainerItemProxy */;
+		};
+		D2C758ED591D40A102730EFDA081FC1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YLDNSPageView_Example";
+			target = 6E22B9C86F29946DF09BBBB863DCBDDA /* Pods-YLDNSPageView_Example */;
+			targetProxy = 2ED0C3511A947A73416CFA27E2FE9299 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B61D41BCBC79467DED030461A04FB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C068428976E19E61A6FB9DDDC48E9A3 /* Pods-YLDNSPageView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YLDNSPageView_Tests/Pods-YLDNSPageView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YLDNSPageView_Tests/Pods-YLDNSPageView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0D32F6870A3FC38A7723785F23762A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C68BF2A4F1A8822F5AEA77D38DD4705C /* Pods-YLDNSPageView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YLDNSPageView_Example/Pods-YLDNSPageView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YLDNSPageView_Example/Pods-YLDNSPageView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		11A87000BF90B18B56F344B455A4B3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E4BDB1C90C4F79B46CF14D7BF58E9F0 /* Pods-YLDNSPageView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YLDNSPageView_Example/Pods-YLDNSPageView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YLDNSPageView_Example/Pods-YLDNSPageView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2BD9C7FA4FADAB9B9324E711F6032F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DF8E4738E38A55221DDF5E22C43E3A4 /* YLDNSPageView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YLDNSPageView/YLDNSPageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YLDNSPageView/YLDNSPageView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YLDNSPageView/YLDNSPageView.modulemap";
+				PRODUCT_MODULE_NAME = YLDNSPageView;
+				PRODUCT_NAME = YLDNSPageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E7C360F398EBB5FEA120576F5303D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0293A1BAE4DFE109F041A5A9F00C7822 /* YLDNSPageView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YLDNSPageView/YLDNSPageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YLDNSPageView/YLDNSPageView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YLDNSPageView/YLDNSPageView.modulemap";
+				PRODUCT_MODULE_NAME = YLDNSPageView;
+				PRODUCT_NAME = YLDNSPageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		51A85AF20D8F8348D859E9AFB1EF7197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1664E2283708547E66FA9B4ED5A53B03 /* Pods-YLDNSPageView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YLDNSPageView_Tests/Pods-YLDNSPageView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YLDNSPageView_Tests/Pods-YLDNSPageView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76BB87ADE14C5070ECEBAFCE9D83680F /* Build configuration list for PBXNativeTarget "YLDNSPageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7C360F398EBB5FEA120576F5303D52 /* Debug */,
+				2BD9C7FA4FADAB9B9324E711F6032F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CE84D4B645712DB819A6AA8EADAA7A2 /* Build configuration list for PBXNativeTarget "Pods-YLDNSPageView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B61D41BCBC79467DED030461A04FB7B /* Debug */,
+				51A85AF20D8F8348D859E9AFB1EF7197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F73A0E79C68E27C7BF32745AA4880E21 /* Build configuration list for PBXNativeTarget "Pods-YLDNSPageView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D32F6870A3FC38A7723785F23762A5A /* Debug */,
+				11A87000BF90B18B56F344B455A4B3D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
