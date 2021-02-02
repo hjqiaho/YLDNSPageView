@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YLDNSPageView'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'YLDNSPageView. '
 
 # This description is used to generate tags and improve search results.
@@ -31,9 +31,6 @@ Pod::Spec.new do |s|
   s.swift_version = "5.0"
 
   s.ios.deployment_target = '9.0'
-  s.osx.deployment_target = "10.15"
-  s.tvos.deployment_target = "9.0"
-  s.watchos.deployment_target = "3.0"
   
   s.source_files = 'YLDNSPageView/Classes/*.swift'
   
